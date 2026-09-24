@@ -1,0 +1,22 @@
+{
+  "email_prefix": "qa.user",
+  "email_domain": "example.com",
+  "user": {
+    "name": "Test User",
+    "password": "Test@12345",
+    "title": "Mr",
+    "birth_day": "10",
+    "birth_month": "May",
+    "birth_year": "2000",
+    "first_name": "Test",
+    "last_name": "User",
+    "company": "QA Labs",
+    "address": "12 Park Street",
+    "address2": "Salt Lake",
+    "country": "India",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "zipcode": "700091",
+    "mobile": "9876543210"
+  }
+}

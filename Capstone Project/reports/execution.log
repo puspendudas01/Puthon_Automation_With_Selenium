@@ -1,0 +1,76 @@
+19:42:16 | INFO    | pages.auth_page | Registering new account qa.user.1790259132@example.com
+19:42:16 | INFO    | pages.base_page | Opening https://automationexercise.com/login
+19:43:26 | INFO    | tests.conftest | Test account created: qa.user.1790259132@example.com
+19:43:27 | INFO    | pages.base_page | Opening https://automationexercise.com/
+19:43:33 | INFO    | tests.conftest | Screenshot saved: 20260924_194333_353_test_purchase_flow_Blue_Top__01_home_page.png
+19:43:33 | INFO    | pages.auth_page | Logging in as qa.user.1790259132@example.com
+19:43:33 | INFO    | pages.base_page | Opening https://automationexercise.com/login
+19:43:51 | INFO    | tests.conftest | Screenshot saved: 20260924_194350_924_test_purchase_flow_Blue_Top__02_logged_in.png
+19:43:51 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:43:53 | INFO    | pages.cart_page | Cart cleared
+19:43:53 | INFO    | pages.product_page | Searching for 'Blue Top'
+19:43:53 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:44:03 | INFO    | tests.conftest | Screenshot saved: 20260924_194403_531_test_purchase_flow_Blue_Top__03_search_results.png
+19:44:03 | INFO    | pages.product_page | Adding first search result to cart
+19:44:09 | INFO    | tests.conftest | Screenshot saved: 20260924_194409_056_test_purchase_flow_Blue_Top__04_added_to_cart_modal.png
+19:44:12 | INFO    | pages.cart_page | Cart contents: [{'name': 'Blue Top', 'price': 500, 'quantity': 1, 'total': 500}]
+19:44:14 | INFO    | tests.conftest | Screenshot saved: 20260924_194414_626_test_purchase_flow_Blue_Top__05_cart_after_first_add.png
+19:44:14 | INFO    | pages.product_page | Searching for 'Blue Top'
+19:44:14 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:44:26 | INFO    | pages.product_page | Setting quantity to 2 on product detail page and adding to cart
+19:44:33 | INFO    | tests.conftest | Screenshot saved: 20260924_194433_296_test_purchase_flow_Blue_Top__06_quantity_updated_modal.png
+19:44:36 | INFO    | pages.cart_page | Cart contents: [{'name': 'Blue Top', 'price': 500, 'quantity': 3, 'total': 1500}]
+19:44:38 | INFO    | tests.conftest | Screenshot saved: 20260924_194438_248_test_purchase_flow_Blue_Top__07_cart_verified.png
+19:44:38 | INFO    | tests.test_purchase_flow | PASS: Blue Top x3 = Rs. 1500
+19:44:38 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:44:42 | INFO    | pages.cart_page | Cart cleared
+19:44:50 | INFO    | pages.base_page | Opening https://automationexercise.com/
+19:44:57 | INFO    | tests.conftest | Screenshot saved: 20260924_194457_060_test_purchase_flow_Men_Tshirt__01_home_page.png
+19:44:57 | INFO    | pages.auth_page | Logging in as qa.user.1790259132@example.com
+19:44:57 | INFO    | pages.base_page | Opening https://automationexercise.com/login
+19:45:15 | INFO    | tests.conftest | Screenshot saved: 20260924_194515_211_test_purchase_flow_Men_Tshirt__02_logged_in.png
+19:45:15 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:45:17 | INFO    | pages.cart_page | Cart cleared
+19:45:17 | INFO    | pages.product_page | Searching for 'Men Tshirt'
+19:45:17 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:45:28 | INFO    | tests.conftest | Screenshot saved: 20260924_194527_845_test_purchase_flow_Men_Tshirt__03_search_results.png
+19:45:28 | INFO    | pages.product_page | Adding first search result to cart
+19:45:33 | INFO    | tests.conftest | Screenshot saved: 20260924_194533_521_test_purchase_flow_Men_Tshirt__04_added_to_cart_modal.png
+19:45:36 | INFO    | pages.cart_page | Cart contents: [{'name': 'Men Tshirt', 'price': 400, 'quantity': 1, 'total': 400}]
+19:45:39 | INFO    | tests.conftest | Screenshot saved: 20260924_194538_966_test_purchase_flow_Men_Tshirt__05_cart_after_first_add.png
+19:45:39 | INFO    | pages.product_page | Searching for 'Men Tshirt'
+19:45:39 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:45:52 | INFO    | pages.product_page | Setting quantity to 3 on product detail page and adding to cart
+19:45:59 | INFO    | tests.conftest | Screenshot saved: 20260924_194559_483_test_purchase_flow_Men_Tshirt__06_quantity_updated_modal.png
+19:46:03 | INFO    | pages.cart_page | Cart contents: [{'name': 'Men Tshirt', 'price': 400, 'quantity': 4, 'total': 1600}]
+19:46:05 | INFO    | tests.conftest | Screenshot saved: 20260924_194605_019_test_purchase_flow_Men_Tshirt__07_cart_verified.png
+19:46:05 | INFO    | tests.test_purchase_flow | PASS: Men Tshirt x4 = Rs. 1600
+19:46:05 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:46:09 | INFO    | pages.cart_page | Cart cleared
+19:46:17 | INFO    | pages.base_page | Opening https://automationexercise.com/
+19:46:23 | INFO    | tests.conftest | Screenshot saved: 20260924_194622_857_test_purchase_flow_Sleeveless_Dress__01_home_page.png
+19:46:23 | INFO    | pages.auth_page | Logging in as qa.user.1790259132@example.com
+19:46:23 | INFO    | pages.base_page | Opening https://automationexercise.com/login
+19:46:40 | INFO    | tests.conftest | Screenshot saved: 20260924_194640_631_test_purchase_flow_Sleeveless_Dress__02_logged_in.png
+19:46:40 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:46:43 | INFO    | pages.cart_page | Cart cleared
+19:46:43 | INFO    | pages.product_page | Searching for 'Sleeveless Dress'
+19:46:43 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:46:54 | INFO    | tests.conftest | Screenshot saved: 20260924_194654_253_test_purchase_flow_Sleeveless_Dress__03_search_results.png
+19:46:54 | INFO    | pages.product_page | Adding first search result to cart
+19:47:01 | INFO    | tests.conftest | Screenshot saved: 20260924_194659_771_test_purchase_flow_Sleeveless_Dress__04_added_to_cart_modal.png
+19:47:05 | INFO    | pages.cart_page | Cart contents: [{'name': 'Sleeveless Dress', 'price': 1000, 'quantity': 1, 'total': 1000}]
+19:47:09 | INFO    | tests.conftest | Screenshot saved: 20260924_194707_159_test_purchase_flow_Sleeveless_Dress__05_cart_after_first_add.png
+19:47:09 | INFO    | pages.product_page | Searching for 'Sleeveless Dress'
+19:47:09 | INFO    | pages.base_page | Opening https://automationexercise.com/products
+19:47:22 | INFO    | pages.product_page | Setting quantity to 1 on product detail page and adding to cart
+19:47:29 | INFO    | tests.conftest | Screenshot saved: 20260924_194729_057_test_purchase_flow_Sleeveless_Dress__06_quantity_updated_modal.png
+19:47:32 | INFO    | pages.cart_page | Cart contents: [{'name': 'Sleeveless Dress', 'price': 1000, 'quantity': 2, 'total': 2000}]
+19:47:36 | INFO    | tests.conftest | Screenshot saved: 20260924_194734_467_test_purchase_flow_Sleeveless_Dress__07_cart_verified.png
+19:47:36 | INFO    | tests.test_purchase_flow | PASS: Sleeveless Dress x2 = Rs. 2000
+19:47:36 | INFO    | pages.base_page | Opening https://automationexercise.com/view_cart
+19:47:41 | INFO    | pages.cart_page | Cart cleared
+19:47:48 | INFO    | pages.auth_page | Logging in as qa.user.1790259132@example.com
+19:47:48 | INFO    | pages.base_page | Opening https://automationexercise.com/login
+19:48:06 | INFO    | pages.base_page | Opening https://automationexercise.com/delete_account
+19:48:08 | INFO    | tests.conftest | Test account deleted
