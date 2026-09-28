@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QA Practice Portal</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 720px; margin: 30px auto; padding: 0 20px; background: #f6f8fa; }
+  h1 { color: #1f3864; }
+  section { background: #fff; border: 1px solid #d0d7de; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; }
+  h2 { font-size: 17px; color: #2e5597; margin-top: 0; }
+  input { display: block; margin: 8px 0; padding: 7px; width: 90%; }
+  .login-btn { background: #1f3864; color: #fff; border: 0; padding: 8px 18px; border-radius: 4px; cursor: pointer; }
+  a { color: #0969da; margin-right: 14px; }
+  .nav-link { display: inline-block; margin: 4px 14px 4px 0; }
+  .user-card { border: 1px solid #ccc; border-radius: 4px; padding: 8px; margin: 6px 0; }
+  #profile-card, #other-card { border: 1px solid #ccc; border-radius: 6px; padding: 10px 14px; margin: 8px 0; }
+  #status { font-weight: bold; color: #1a7f37; min-height: 20px; }
+</style>
+</head>
+<body>
+
+<h1>QA Practice Portal</h1>
+
+<!-- Assignment 1: single-element locators -->
+<section id="assignment1">
+  <h2>Login (Assignment 1: ID, NAME, TAG_NAME, LINK_TEXT, CLASS_NAME)</h2>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <a href="#" id="forgot">Forgot Password?</a>
+  <button class="login-btn">Login</button>
+</section>
+
+<!-- Assignment 2: multiple elements -->
+<section id="assignment2">
+  <h2>Navigation (Assignment 2: find_elements)</h2>
+  <a class="nav-link" href="#">Home</a>
+  <a class="nav-link" href="#">About</a>
+  <a class="nav-link" href="#">Courses</a>
+  <a class="nav-link" href="#">Contact</a>
+  <a class="nav-link" href="#">Blog</a>
+</section>
+
+<!-- Assignment 3: CSS wildcard selectors -->
+<section id="assignment3">
+  <h2>Members (Assignment 3: CSS wildcard selectors)</h2>
+  <div class="user-card" id="user_1001">Sneha Roy</div>
+  <div class="user-card" id="user_1002">Arjun Paul</div>
+  <div class="user-card" id="user_1003_admin">Kabir Mehta (admin)</div>
+  <div class="user-card" id="guest_user_77">Guest Visitor</div>
+</section>
+
+<!-- Assignment 4: child selector -->
+<section id="assignment4">
+  <h2>Profile (Assignment 4: CSS child selector)</h2>
+  <div id="profile-card">
+    <h3>Puspendu</h3>
+    <p>Full-Stack Development Student</p>
+    <button id="view-profile" onclick="document.getElementById('status').textContent='Profile opened successfully'">View Profile</button>
+  </div>
+  <div id="other-card">
+    <button id="follow">Follow</button>
+  </div>
+  <p id="status"></p>
+</section>
+
+</body>
+</html>
